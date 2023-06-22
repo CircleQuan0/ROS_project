@@ -51,6 +51,32 @@ rostopic echo /odom | tee odom_topic.yaml
 
 
 
+为只播放目标topic，加快数据读取使用：
+
+例：rosbag play --immediate demo.bag --topics /topic1 /topic2 /topic3 
+
+rosbag play --immediate all.bag --topics /odom / /imu/data_raw
+
+返回
+
+![image-20230623001809300](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230623001809300.png)
+
+
+
+进行保存：
+
+运行：
+
+rostopic echo /imu/data_raw | tee imutopic.yaml
+
+rostopic echo /odom | tee odom_topic.yaml  
+
+返回：
+
+![image-20230623002306081](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230623002306081.png)
+
+
+
 
 
 
