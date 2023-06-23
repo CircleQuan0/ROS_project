@@ -12,21 +12,21 @@
 
 返回：报错：
 
-![image-20230623180156384](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230623180156384.png)
+![image-20230623180156384](H:\Code_data\ROS_project\ros_learning\图片库\image-20230623180156384.png)
 
 显然头文件包含错误，但现在还不会使用于是，利用cmake—gui进行链接操作
 
-![image-20230623180310161](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230623180310161.png)
+![image-20230623180310161](H:\Code_data\ROS_project\ros_learning\图片库\image-20230623180310161.png)
 
 重新执行make 返回：
 
-![image-20230623180349622](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230623180349622.png)
+![image-20230623180349622](H:\Code_data\ROS_project\ros_learning\图片库\image-20230623180349622.png)
 
-编译成功![image-20230623180404725](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230623180404725.png)
+编译成功![image-20230623180404725](H:\Code_data\ROS_project\ros_learning\图片库\image-20230623180404725.png)
 
 运行测试程序：./opencv_example
 
-返回：![image-20230623180454833](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230623180454833.png)
+返回：![image-20230623180454833](H:\Code_data\ROS_project\ros_learning\图片库\image-20230623180454833.png)
 
 测试正常   /////////////OpenCV 下载运行成功
 

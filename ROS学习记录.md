@@ -15,7 +15,7 @@ rosrun rqt_graph
 
 rosnode  显示节点信息
 
-![image-20230602223813938](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230602223813938.png)
+![image-20230602223813938](H:\Code_data\ROS_project\ros_learning\图片库\image-20230602223813938.png)
 
 列出节点   rosndoe  list
 
@@ -52,7 +52,7 @@ geometry_msgs/Twist 要发布的消息类型名称
 显示话题定义
 rosmsg show geometry_msgs/Twist
 
-![image-20230603100010900](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603100010900.png)
+![image-20230603100010900](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603100010900.png)
 
 
 
@@ -149,7 +149,7 @@ rosbag play cmd_record.bag
 
 
 
-![image-20230603104700601](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603104700601.png)
+![image-20230603104700601](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603104700601.png)
 
 创建工作空间
 
@@ -207,25 +207,25 @@ echo $ROS_PACKAGE_PATH 查看环境变量路径
 
 
 
-![image-20230603172656539](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603172656539.png)
+![image-20230603172656539](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603172656539.png)
 
-![image-20230603152655429](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603152655429.png)
-
-
-
-![image-20230603161033966](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603161033966.png)
+![image-20230603152655429](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603152655429.png)
 
 
 
-![image-20230603161109564](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603161109564.png)
+![image-20230603161033966](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603161033966.png)
 
 
 
-![image-20230603161155906](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603161155906.png)
+![image-20230603161109564](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603161109564.png)
+
+
+
+![image-20230603161155906](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603161155906.png)
 
 运行程序
 
-![image-20230603161251067](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603161251067.png)
+![image-20230603161251067](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603161251067.png)
 
  
 
@@ -237,17 +237,17 @@ echo $ROS_PACKAGE_PATH 查看环境变量路径
 
 同样创建程序文件在src中
 
-![image-20230603170518720](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603170518720.png)
+![image-20230603170518720](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603170518720.png)
 
 
 
-![image-20230603170719540](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603170719540.png)
+![image-20230603170719540](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603170719540.png)
 
 如果ROS自带的消息类型，无法满足需求，则可以自己定义消息类型
 
 自定义消息类型
 
-.![image-20230603173033022](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603173033022.png)
+.![image-20230603173033022](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603173033022.png)
 
 
 
@@ -263,41 +263,41 @@ echo $ROS_PACKAGE_PATH 查看环境变量路径
 
 服务模型
 
-![image-20230603182154050](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603182154050.png)
+![image-20230603182154050](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603182154050.png)
 
-![image-20230603191134953](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603191134953.png)
+![image-20230603191134953](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603191134953.png)
 
-![image-20230603191211958](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603191211958.png)
+![image-20230603191211958](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603191211958.png)
 
 
 
 服务端编程实现
 
- ![image-20230603192750455](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603192750455.png)
+ ![image-20230603192750455](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603192750455.png)
 
 
 
 观察trigger数据类型
 
-![image-20230603194836296](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230603194836296.png)
+![image-20230603194836296](H:\Code_data\ROS_project\ros_learning\图片库\image-20230603194836296.png)
 
 camke完成编译
 
-![image-20230604142147450](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230604142147450.png)
+![image-20230604142147450](H:\Code_data\ROS_project\ros_learning\图片库\image-20230604142147450.png)
 
 实际运行   rosservice call /turtle_command "{}"补全
 
 服务数据的定义和使用
 
-![image-20230604155436655](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230604155436655.png)
+![image-20230604155436655](H:\Code_data\ROS_project\ros_learning\图片库\image-20230604155436655.png)
 
 
 
-![image-20230604163247969](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230604163247969.png)
+![image-20230604163247969](H:\Code_data\ROS_project\ros_learning\图片库\image-20230604163247969.png)
 
-![image-20230604163302633](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230604163302633.png)
+![image-20230604163302633](H:\Code_data\ROS_project\ros_learning\图片库\image-20230604163302633.png)
 
-![image-20230604163332820](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230604163332820.png)
+![image-20230604163332820](H:\Code_data\ROS_project\ros_learning\图片库\image-20230604163332820.png)
 
 
 
@@ -307,7 +307,7 @@ camke完成编译
 
 参数模型
 
-![image-20230604164818993](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230604164818993.png)
+![image-20230604164818993](H:\Code_data\ROS_project\ros_learning\图片库\image-20230604164818993.png)
 
 
 
@@ -329,7 +329,7 @@ camke完成编译
 
 返回：
 
-![image-20230622234817538](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230622234817538.png)
+![image-20230622234817538](H:\Code_data\ROS_project\ros_learning\图片库\image-20230622234817538.png)
 
 Ctrl + Alt + T 打开一个新的terminal或者在当前的terminal窗口使用Ctrl + Shift + T打开一个新的tab，订阅前述所说的/imu/data_raw，echo该topic的所有输出同时将其记录到一个指定的yaml文件中，以便日后查看。使用命令如下：
 rostopic echo /imu/data_raw | tee imu_topic.yaml  
@@ -346,9 +346,9 @@ lyq@lyq-ubuntu-ROS:~$ rostopic echo /imu/data_raw | tee imutopic.yaml
 
 数据开始读取：
 
-![image-20230622234631234](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230622234631234.png)
+![image-20230622234631234](H:\Code_data\ROS_project\ros_learning\图片库\image-20230622234631234.png)
 
-![image-20230622234651738](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230622234651738.png)
+![image-20230622234651738](H:\Code_data\ROS_project\ros_learning\图片库\image-20230622234651738.png)
 
 显然成功读取到imu信息
 
@@ -360,11 +360,11 @@ rostopic echo /odom | tee odom_topic.yaml
 
 开始读取：
 
-![image-20230622235315425](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230622235315425.png)
+![image-20230622235315425](H:\Code_data\ROS_project\ros_learning\图片库\image-20230622235315425.png)
 
 读取到的odom文件：
 
-![image-20230622235405358](C:\Users\LYQ\AppData\Roaming\Typora\typora-user-images\image-20230622235405358.png)
+![image-20230622235405358](H:\Code_data\ROS_project\ros_learning\图片库\image-20230622235405358.png)
 
 
 
