@@ -1,0 +1,9 @@
+/home/lyq/catkin_workspace/install/_setup_util.py
+/home/lyq/catkin_workspace/install/env.sh
+/home/lyq/catkin_workspace/install/setup.bash
+/home/lyq/catkin_workspace/install/local_setup.bash
+/home/lyq/catkin_workspace/install/setup.sh
+/home/lyq/catkin_workspace/install/local_setup.sh
+/home/lyq/catkin_workspace/install/setup.zsh
+/home/lyq/catkin_workspace/install/local_setup.zsh
+/home/lyq/catkin_workspace/install/.rosinstall

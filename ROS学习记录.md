@@ -368,6 +368,35 @@ rostopic echo /odom | tee odom_topic.yaml
 
 
 
+视频提取
+
+python rosbag2video.py [--fps 25] [--rate 1] [-o outputfile] [-v] [-s] [-t topic] bagfile1 [bagfile2] ...
+
+[–fps] ：设置传递给ffmpeg的帧率，默认为25；
+[-h]：显示帮助；
+[–ofile]：设置输出文件名；
+[–rate]：放慢或加快视频。默认值是1.0，保持原来的速度；
+[-s]：显示从rosbag文件提取的每个图像；
+[–topic]：仅来自“topic”的图像用于视频输出；
+[-v]：显示详细消息；
+[–prefix]：设置输出文件名前缀，否则使用“ bagfile1”（如果未设置-o）；
+[–start]：可选的开始时间（以秒为单位）；
+[–end]：可选结束时间，单位为秒；
+
+————————————————
+版权声明：本文为CSDN博主「hywmj」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/wangmj_hdu/article/details/114130648
+
+运行python rosbag2video.py all.bag
+
+ 
+
+
+
+
+
+
+
 
 
 

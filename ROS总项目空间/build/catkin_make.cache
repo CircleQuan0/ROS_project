@@ -1,0 +1,2 @@
+RGBcamera:depthcamera:imudata:learning_parameter:learning_service:learning_topic:lidar:odom
+-DCATKIN_DEVEL_PREFIX=/home/lyq/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/lyq/catkin_workspace/install -G Unix Makefiles
