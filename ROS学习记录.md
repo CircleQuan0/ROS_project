@@ -389,7 +389,25 @@ python rosbag2video.py [--fps 25] [--rate 1] [-o outputfile] [-v] [-s] [-t topic
 
 运行python rosbag2video.py all.bag
 
- 
+ 点云数据提取
+
+用图形界面显示激光雷达的点云数据（plc库）
+
+## 解析.bag文件到.pcd[点云](https://so.csdn.net/so/search?q=点云&spm=1001.2101.3001.7020)数据文件
+
+rosrun pcl_ros bag_to_pcd all.bag /rslidar_points pointcloud_pcd/
+
+安装PCD viewer
+
+sudo apt install pcl-tools
+
+显示pcl_viewer pointcloud_pcd/1668162552.727140903.pcd
+
+编写C++程序，播放PCD文件
+
+
+
+订阅实现，详见代码
 
 
 
